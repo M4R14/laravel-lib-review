@@ -15,4 +15,4 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/gen-qr-prompay', 'QrPrompayController@index');
+$router->get('/gen-promptpay', 'GenPromptpayController@index');
